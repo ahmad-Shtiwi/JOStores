@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_login_store">Your Store</string>
+    <string name="forget_password">Forget Password ?</string>
+    <string name="welcome_to">Welcome To</string>
+    <string name="J_letter">J</string>
+    <string name="store">Store</string>
+    <string name="hint_email">Email or / user name</string>
+    <string name="hint_password">Password</string>
+</resources>

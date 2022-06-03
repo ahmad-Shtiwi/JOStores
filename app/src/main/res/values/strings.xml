@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">JO Stores</string>
+    <string name="get_started">Get Started</string>
+    <string name="title_login_store">Your Store</string>
+    <string name="log_in_button">Log In</string>
+    <string name="sign_up_button">Sign Up</string>
+    <string name="forget_password">Forget Password ?</string>
+    <string name="welcome_to">Welcome To</string>
+    <string name="O_letter">O</string>
+    <string name="J_letter">J</string>
+    <string name="store">Store</string>
+    <string name="customers">Customers</string>
+    <string name="hint_email">Email or / user name</string>
+    <string name="hint_password">Password</string>
+</resources>
