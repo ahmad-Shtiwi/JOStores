@@ -11,9 +11,14 @@
         <entry key="..\:/Users/Ahmad/AndroidStudioProjects/JOStores2/app/src/main/res/drawable/background_body.xml" value="0.219" />
         <entry key="..\:/Users/Ahmad/AndroidStudioProjects/JOStores2/app/src/main/res/drawable/background_box.xml" value="0.219" />
         <entry key="..\:/Users/Ahmad/AndroidStudioProjects/JOStores2/app/src/main/res/drawable/bg.xml" value="0.219" />
+        <entry key="..\:/Users/Ahmad/AndroidStudioProjects/JOStores2/app/src/main/res/drawable/bg_add_button.xml" value="0.219" />
+        <entry key="..\:/Users/Ahmad/AndroidStudioProjects/JOStores2/app/src/main/res/drawable/bg_box.xml" value="0.219" />
         <entry key="..\:/Users/Ahmad/AndroidStudioProjects/JOStores2/app/src/main/res/drawable/bg_button.xml" value="0.219" />
         <entry key="..\:/Users/Ahmad/AndroidStudioProjects/JOStores2/app/src/main/res/drawable/bg_button2.xml" value="0.219" />
         <entry key="..\:/Users/Ahmad/AndroidStudioProjects/JOStores2/app/src/main/res/drawable/bg_corner.xml" value="0.219" />
+        <entry key="..\:/Users/Ahmad/AndroidStudioProjects/JOStores2/app/src/main/res/drawable/bg_master.xml" value="0.219" />
+        <entry key="..\:/Users/Ahmad/AndroidStudioProjects/JOStores2/app/src/main/res/drawable/bg_master_button.xml" value="0.219" />
+        <entry key="..\:/Users/Ahmad/AndroidStudioProjects/JOStores2/app/src/main/res/drawable/bg_secound_button.xml" value="0.219" />
         <entry key="..\:/Users/Ahmad/AndroidStudioProjects/JOStores2/app/src/main/res/drawable/button_background.xml" value="0.219" />
         <entry key="..\:/Users/Ahmad/AndroidStudioProjects/JOStores2/app/src/main/res/drawable/cart_icon.xml" value="0.219" />
         <entry key="..\:/Users/Ahmad/AndroidStudioProjects/JOStores2/app/src/main/res/drawable/chat_icon.xml" value="0.219" />
@@ -33,12 +38,12 @@
         <entry key="..\:/Users/Ahmad/AndroidStudioProjects/JOStores2/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Users/Ahmad/AndroidStudioProjects/JOStores2/app/src/main/res/layout/activity_product.xml" value="0.20854700854700856" />
         <entry key="..\:/Users/Ahmad/AndroidStudioProjects/JOStores2/app/src/main/res/layout/activity_sections.xml" value="0.22735507246376813" />
-        <entry key="..\:/Users/Ahmad/AndroidStudioProjects/JOStores2/app/src/main/res/layout/home.xml" value="0.30662393162393164" />
-        <entry key="..\:/Users/Ahmad/AndroidStudioProjects/JOStores2/app/src/main/res/layout/intro_page.xml" value="0.20854700854700856" />
-        <entry key="..\:/Users/Ahmad/AndroidStudioProjects/JOStores2/app/src/main/res/layout/log_in_store.xml" value="0.4" />
-        <entry key="..\:/Users/Ahmad/AndroidStudioProjects/JOStores2/app/src/main/res/layout/navbar_buttom.xml" value="0.4" />
+        <entry key="..\:/Users/Ahmad/AndroidStudioProjects/JOStores2/app/src/main/res/layout/home.xml" value="0.2" />
+        <entry key="..\:/Users/Ahmad/AndroidStudioProjects/JOStores2/app/src/main/res/layout/intro_page.xml" value="0.264" />
+        <entry key="..\:/Users/Ahmad/AndroidStudioProjects/JOStores2/app/src/main/res/layout/log_in_store.xml" value="0.176" />
+        <entry key="..\:/Users/Ahmad/AndroidStudioProjects/JOStores2/app/src/main/res/layout/navbar_buttom.xml" value="0.136" />
         <entry key="..\:/Users/Ahmad/AndroidStudioProjects/JOStores2/app/src/main/res/layout/sections_page.xml" value="0.20854700854700856" />
-        <entry key="..\:/Users/Ahmad/AndroidStudioProjects/JOStores2/app/src/main/res/layout/toolbar.xml" value="0.536" />
+        <entry key="..\:/Users/Ahmad/AndroidStudioProjects/JOStores2/app/src/main/res/layout/toolbar.xml" value="0.2" />
         <entry key="..\:/Users/Ahmad/AndroidStudioProjects/JOStores2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.219" />
       </map>
     </option>
