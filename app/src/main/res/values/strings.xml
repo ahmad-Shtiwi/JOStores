@@ -12,4 +12,17 @@
     <string name="customers">Customers</string>
     <string name="hint_email">Email or / user name</string>
     <string name="hint_password">Password</string>
+    <string name="name_sign_up">Name</string>
+    <string name="user_name_sign_up">User Name</string>
+    <string name="email_sign_up">Email</string>
+    <string name="password_sign_up">Password</string>
+    <string name="re_password_sign_up">Re-Password</string>
+    <string name="country_sign_up">Country</string>
+    <string name="state_sign_up">State</string>
+    <string name="business_rule_sign_up">Business Rule</string>
+    <string name="phone_sign_up">Phone</string>
+    <string name="img_upload">Image Upload</string>
+    <string name="prev_button_signup">Prev</string>
+    <string name="sign20_button">Sign 20$</string>
+
 </resources>

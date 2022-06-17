@@ -13,7 +13,7 @@ import android.widget.Toast;
 
 public class logIn_store extends AppCompatActivity {
 EditText email,password;
-Button logIn;
+Button logIn,signUp;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,7 +22,7 @@ Button logIn;
         email=findViewById(R.id.email_id);
         password=findViewById(R.id.password_id);
         logIn=findViewById(R.id.log_in_id);
-
+        signUp=findViewById(R.id.sign_up_store_id);
 
         logIn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -41,7 +41,13 @@ Button logIn;
                 }
             }
         });
-
+signUp.setOnClickListener(new View.OnClickListener() {
+    @Override
+    public void onClick(View view) {
+        Intent a = new Intent(logIn_store.this, signUpStore.class);
+        startActivity(a);
+    }
+});
 
 
 

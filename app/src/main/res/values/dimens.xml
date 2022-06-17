@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="size_text_sign_up_label">13sp</dimen>
+    <dimen name="size_text_sign_up_box">18sp</dimen>
+    <dimen name="size_box_height_signup">48dp</dimen>
+    <dimen name="size_box_width_signup" >165dp</dimen>
+</resources>
