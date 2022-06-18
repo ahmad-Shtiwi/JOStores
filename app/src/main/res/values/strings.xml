@@ -24,5 +24,6 @@
     <string name="img_upload">Image Upload</string>
     <string name="prev_button_signup">Prev</string>
     <string name="sign20_button">Sign 20$</string>
+    <string name="upload_image_store_button">Upload you store photo</string>
 
 </resources>

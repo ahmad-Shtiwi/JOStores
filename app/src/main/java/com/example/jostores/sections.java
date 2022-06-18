@@ -19,10 +19,11 @@ TextView store , user;
         /* connect button store with log in and sign up page */
 
         store=findViewById(R.id.store_section_id);
+
         store.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-            Intent a=new Intent(sections.this,logIn_store.class);
+            Intent a=new Intent(sections.this, logInStore.class);
             startActivity(a);
             }
         });
@@ -30,6 +31,14 @@ TextView store , user;
         /* connect button Customer  with log in and sign up and Gust page */
 
         user=findViewById(R.id.user_section_id);
+
+        user.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent a=new Intent(sections.this,logInCustomers.class);
+                startActivity(a);
+            }
+        });
 
     }
 }

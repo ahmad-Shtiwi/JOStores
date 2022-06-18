@@ -11,7 +11,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 
-public class logIn_store extends AppCompatActivity {
+public class logInStore extends AppCompatActivity {
 EditText email,password;
 Button logIn,signUp;
     @Override
@@ -32,7 +32,7 @@ Button logIn,signUp;
                 email_s=email.getText().toString();
                 String pass=password.getText().toString();
                 if (email_s.equals("ahmadalqdome")&&pass.equals("12345")) {
-                    Intent a = new Intent(logIn_store.this, product.class);
+                    Intent a = new Intent(logInStore.this, product.class);
                     startActivity(a);
                 }
                 else
@@ -44,7 +44,7 @@ Button logIn,signUp;
 signUp.setOnClickListener(new View.OnClickListener() {
     @Override
     public void onClick(View view) {
-        Intent a = new Intent(logIn_store.this, signUpStore.class);
+        Intent a = new Intent(logInStore.this, signUpStore.class);
         startActivity(a);
     }
 });
