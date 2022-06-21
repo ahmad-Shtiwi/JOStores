@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">JO Stores</string>
+    <string name="upload_image_store_button">تحميل صورة متجرك</string>
+    <string name="title_login_store">متجرك</string>
+    <string name="forget_password">هل نسيت كلمة السر ؟</string>
+    <string name="welcome_to">اهلا بـك في</string>
+    <string name="hint_email">البريد / اسم المستخدم</string>
+    <string name="hint_password">الرمز السري</string>
+    <string name="get_started">ابدأ التسوق</string>
+    <string name="title_login_customer">حسابك الشخصي</string>
+    <string name="log_in_button">تسجيل الدخول</string>
+    <string name="sign_up_button">انشاء حساب</string>
+    <string name="customers">مشتري</string>
+    <string name="name_sign_up">الاسم</string>
+    <string name="user_name_sign_up">اسم المستخدم</string>
+    <string name="email_sign_up">البريد الالكتروني</string>
+    <string name="password_sign_up">الرمز السري</string>
+    <string name="re_password_sign_up">تاكيد الرمز السري</string>
+    <string name="country_sign_up">المحافظة</string>
+    <string name="state_sign_up">المنطقة</string>
+    <string name="business_rule_sign_up">نوع العمل</string>
+    <string name="phone_sign_up">رقم الهاتف</string>
+    <string name="img_upload">تحميل صورة</string>
+    <string name="prev_button_signup">رجوع</string>
+    <string name="sign20_button">انشاء حساب $ 20</string>
+    <string name="guest_customer">ضيف</string>
+
+    <string name="store">متجرك</string>
+
+</resources>

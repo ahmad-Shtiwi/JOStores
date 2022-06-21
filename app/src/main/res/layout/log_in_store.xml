@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-android:background="@drawable/bg_body"
+    android:background="@drawable/bg_body"
     tools:context=".logInStore">
 
 
@@ -70,7 +70,7 @@ android:background="@drawable/bg_body"
         android:layout_width="123dp"
         android:layout_height="48dp"
         android:layout_marginTop="596dp"
-        android:background="@drawable/bg_secound_button"
+        android:background="@drawable/bg_second_button"
         android:fontFamily="@font/righteous"
         android:text="@string/sign_up_button"
         android:textAllCaps="false"

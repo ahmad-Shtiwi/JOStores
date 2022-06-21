@@ -1,10 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">JO Stores</string>
+    <string name="get_started">Get Started</string>
     <string name="title_login_store">Your Store</string>
+
+    <string name="title_login_customer">Your Profile</string>
+    <string name="log_in_button">Log In</string>
+    <string name="sign_up_button">Sign Up</string>
     <string name="forget_password">Forget Password ?</string>
     <string name="welcome_to">Welcome To</string>
-    <string name="J_letter">J</string>
+
     <string name="store">Store</string>
+    <string name="customers">Customers</string>
     <string name="hint_email">Email or / user name</string>
     <string name="hint_password">Password</string>
+    <string name="name_sign_up">Name</string>
+    <string name="user_name_sign_up">User Name</string>
+    <string name="email_sign_up">Email</string>
+    <string name="password_sign_up">Password</string>
+    <string name="re_password_sign_up">Re-Password</string>
+    <string name="country_sign_up">Country</string>
+    <string name="state_sign_up">State</string>
+    <string name="business_rule_sign_up">Business Rule</string>
+    <string name="phone_sign_up">Phone</string>
+    <string name="img_upload">Image Upload</string>
+    <string name="prev_button_signup">Prev</string>
+    <string name="sign20_button">Sign 20$</string>
+    <string name="guest_customer">Guest</string>
+    <string name="upload_image_store_button">Upload you store photo</string>
+    <string-array name="country_list">
+        <item>almafraq</item>
+        <item>amman</item>
+        <item>irbid</item>
+
+    </string-array>
 </resources>

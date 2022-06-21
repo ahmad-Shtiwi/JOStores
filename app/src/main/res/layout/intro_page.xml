@@ -7,60 +7,15 @@
     android:background="@drawable/bg_body"
     tools:context=".intro">
 
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="wrap_content"
-        android:layout_height="183dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="150dp"
-        android:layout_marginTop="184dp"
-        android:fontFamily="@font/anton"
-        android:text="@string/O_letter"
-        android:textColor="@color/master"
-        android:textSize="120sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="170dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="93dp"
-        android:layout_marginTop="187dp"
-        android:fontFamily="@font/anton"
-        android:gravity="center"
-        android:text="@string/J_letter"
-        android:textColor="@color/text1"
-        android:textSize="120sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="98dp"
-        android:layout_height="58dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="200dp"
-        android:layout_marginTop="288dp"
-        android:layout_marginEnd="112dp"
-        android:fontFamily="@font/anton"
-        android:gravity="center"
-        android:text="@string/store"
-        android:textColor="@color/text1"
-        android:textSize="24sp"
-        android:textStyle="bold" />
-
     <Button
         android:id="@+id/get_started_id"
         android:layout_width="196dp"
         android:layout_height="87dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="118dp"
-        android:layout_marginTop="534dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="537dp"
         android:background="@drawable/bg_master_button"
         android:drawableEnd="@drawable/arrow_right_icon"
         android:fontFamily="@font/fjalla_one"
@@ -72,29 +27,31 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="239dp"
-        android:layout_height="114dp"
+        android:layout_width="270dp"
+        android:layout_height="104dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="97dp"
-        android:layout_marginTop="63dp"
-        android:fontFamily="@font/anton"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="57dp"
+
+        android:fontFamily="@font/raleway_dots"
         android:gravity="center"
         android:text="@string/welcome_to"
         android:textColor="@color/text1"
-        android:textSize="34sp"
+        android:textSize="48sp"
         android:textStyle="bold" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="90dp"
-        android:layout_height="92dp"
+        android:layout_width="309dp"
+        android:layout_height="314dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="206dp"
-        android:layout_marginTop="213dp"
-        android:contentDescription="@string/store"
-        android:src="@drawable/store_login_svg" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="138dp"
+        app:srcCompat="@drawable/logo_intro"
+        tools:ignore="ImageContrastCheck" />
 
 </RelativeLayout>
