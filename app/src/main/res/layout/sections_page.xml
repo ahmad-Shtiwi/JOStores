@@ -7,11 +7,12 @@
     tools:context=".sections"
     android:background="@drawable/bg_body">
 
-    <TextView
+    <Button
         android:id="@+id/user_section_id"
+        android:textAllCaps="false"
         android:layout_width="177dp"
         android:layout_height="164dp"
-        android:background="@drawable/bg_master_button"
+        android:background="@drawable/bg_master_button_selector"
         android:fontFamily="@font/abril_fatface"
         android:gravity="center"
         android:paddingTop="30dp"
@@ -25,11 +26,12 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.7" />
 
-    <TextView
+    <Button
         android:id="@+id/store_section_id"
+        android:textAllCaps="false"
         android:layout_width="177dp"
         android:layout_height="164dp"
-        android:background="@drawable/bg_master_button"
+        android:background="@drawable/bg_master_button_selector"
         android:fontFamily="@font/abril_fatface"
         android:gravity="center"
         android:paddingTop="30dp"

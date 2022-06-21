@@ -8,326 +8,327 @@
     android:orientation="vertical"
     tools:context=".signUpStore">
 
-<!--    <ScrollView-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="match_parent">-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-<!--        <RelativeLayout-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content">-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-<!--            <EditText-->
-<!--                android:id="@+id/state_signup_id"-->
-<!--                android:layout_width="300dp"-->
-<!--                android:layout_height="90dp"-->
-<!--                android:layout_alignParentStart="true"-->
-<!--                android:layout_alignParentTop="true"-->
-<!--                android:layout_marginStart="15dp"-->
-<!--                android:layout_marginTop="770dp"-->
-<!--                android:background="@drawable/bg_box2"-->
-<!--                android:ems="10"-->
-<!--                android:fontFamily="@font/righteous"-->
-<!--                android:gravity="center"-->
-<!--                android:inputType="textPersonName"-->
-<!--                android:textSize="@dimen/size_text_sign_up_box"-->
-<!--                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />-->
+            <EditText
+                android:id="@+id/state_signup_id"
+                android:layout_width="300dp"
+                android:layout_height="90dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="770dp"
+                android:background="@drawable/bg_box2"
+                android:ems="10"
+                android:fontFamily="@font/righteous"
+                android:gravity="center"
+                android:inputType="textPersonName"
+                android:textSize="@dimen/size_text_sign_up_box"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
 
-<!--            <TextView-->
-<!--                android:id="@+id/country_label_id"-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_alignParentStart="true"-->
-<!--                android:layout_alignParentTop="true"-->
-<!--                android:layout_marginStart="15dp"-->
-<!--                android:layout_marginTop="660dp"-->
-<!--                android:fontFamily="sans-serif-condensed"-->
-<!--                android:text="@string/country_sign_up"-->
-<!--                android:textColor="@color/text1"-->
-<!--                android:textSize="@dimen/size_text_sign_up_label" />-->
+            <TextView
+                android:id="@+id/country_label_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="660dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/country_sign_up"
+                android:textColor="@color/text1"
+                android:textSize="@dimen/size_text_sign_up_label" />
 
-<!--            <EditText-->
-<!--                android:id="@+id/password_signup_id"-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="@dimen/size_box_height_signup"-->
-<!--                android:layout_alignParentStart="true"-->
-<!--                android:layout_alignParentTop="true"-->
-<!--                android:layout_marginStart="15dp"-->
-<!--                android:layout_marginTop="410dp"-->
-<!--                android:background="@drawable/bg_box2"-->
-<!--                android:ems="10"-->
-<!--                android:fontFamily="@font/righteous"-->
-<!--                android:inputType="textPassword"-->
-<!--                android:paddingLeft="15dp"-->
-<!--                android:textSize="@dimen/size_text_sign_up_box"-->
-<!--                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />-->
+            <EditText
+                android:id="@+id/password_signup_id"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/size_box_height_signup"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="410dp"
+                android:background="@drawable/bg_box2"
+                android:ems="10"
+                android:fontFamily="@font/righteous"
+                android:inputType="textPassword"
+                android:paddingLeft="15dp"
+                android:textSize="@dimen/size_text_sign_up_box"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
 
-<!--            <TextView-->
-<!--                android:id="@+id/repassword_label_id"-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_alignParentStart="true"-->
-<!--                android:layout_alignParentTop="true"-->
-<!--                android:layout_marginStart="15dp"-->
-<!--                android:layout_marginTop="480dp"-->
-<!--                android:fontFamily="sans-serif-condensed"-->
-<!--                android:text="@string/re_password_sign_up"-->
-<!--                android:textColor="@color/text1"-->
-<!--                android:textSize="@dimen/size_text_sign_up_label" />-->
+            <TextView
+                android:id="@+id/repassword_label_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="480dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/re_password_sign_up"
+                android:textColor="@color/text1"
+                android:textSize="@dimen/size_text_sign_up_label" />
 
-<!--            <TextView-->
-<!--                android:id="@+id/password_label_id"-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_alignParentStart="true"-->
-<!--                android:layout_alignParentTop="true"-->
-<!--                android:layout_marginStart="15dp"-->
-<!--                android:layout_marginTop="390dp"-->
-<!--                android:fontFamily="sans-serif-condensed"-->
-<!--                android:text="@string/password_sign_up"-->
-<!--                android:textColor="@color/text1"-->
-<!--                android:textSize="@dimen/size_text_sign_up_label" />-->
+            <TextView
+                android:id="@+id/password_label_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="390dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/password_sign_up"
+                android:textColor="@color/text1"
+                android:textSize="@dimen/size_text_sign_up_label" />
 
-<!--            <EditText-->
-<!--                android:id="@+id/phone_signup_id"-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="@dimen/size_box_height_signup"-->
-<!--                android:layout_alignParentStart="true"-->
-<!--                android:layout_alignParentTop="true"-->
-<!--                android:layout_marginStart="15dp"-->
-<!--                android:layout_marginTop="590dp"-->
-<!--                android:background="@drawable/bg_box2"-->
-<!--                android:ems="10"-->
-<!--                android:fontFamily="@font/righteous"-->
-<!--                android:inputType="phone"-->
-<!--                android:maxLength="10"-->
-<!--                android:paddingLeft="15dp"-->
-<!--                android:textSize="@dimen/size_text_sign_up_box"-->
-<!--                tools:ignore="SpeakableTextPresentCheck" />-->
+            <EditText
+                android:id="@+id/phone_signup_id"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/size_box_height_signup"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="590dp"
+                android:background="@drawable/bg_box2"
+                android:ems="10"
+                android:fontFamily="@font/righteous"
+                android:inputType="phone"
+                android:maxLength="10"
+                android:paddingLeft="15dp"
+                android:textSize="@dimen/size_text_sign_up_box"
+                tools:ignore="SpeakableTextPresentCheck" />
 
-<!--            <TextView-->
-<!--                android:id="@+id/phone_label_id"-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_alignParentStart="true"-->
-<!--                android:layout_alignParentTop="true"-->
-<!--                android:layout_marginStart="15dp"-->
-<!--                android:layout_marginTop="570dp"-->
-<!--                android:fontFamily="sans-serif-condensed"-->
-<!--                android:text="@string/phone_sign_up"-->
-<!--                android:textColor="@color/text1"-->
-<!--                android:textSize="@dimen/size_text_sign_up_label" />-->
+            <TextView
+                android:id="@+id/phone_label_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="570dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/phone_sign_up"
+                android:textColor="@color/text1"
+                android:textSize="@dimen/size_text_sign_up_label" />
 
-<!--            <EditText-->
-<!--                android:id="@+id/repassword_signup_id"-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="@dimen/size_box_height_signup"-->
-<!--                android:layout_alignParentStart="true"-->
-<!--                android:layout_alignParentTop="true"-->
-<!--                android:layout_marginStart="15dp"-->
-<!--                android:layout_marginTop="500dp"-->
-<!--                android:background="@drawable/bg_box2"-->
-<!--                android:ems="10"-->
-<!--                android:fontFamily="@font/righteous"-->
-<!--                android:inputType="textPassword"-->
-<!--                android:paddingLeft="15dp"-->
-<!--                android:textSize="@dimen/size_text_sign_up_box"-->
-<!--                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />-->
+            <EditText
+                android:id="@+id/repassword_signup_id"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/size_box_height_signup"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="500dp"
+                android:background="@drawable/bg_box2"
+                android:ems="10"
+                android:fontFamily="@font/righteous"
+                android:inputType="textPassword"
+                android:paddingLeft="15dp"
+                android:textSize="@dimen/size_text_sign_up_box"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
 
-<!--            <TextView-->
-<!--                android:id="@+id/state_label_id"-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_alignParentStart="true"-->
-<!--                android:layout_alignParentTop="true"-->
-<!--                android:layout_marginStart="15dp"-->
-<!--                android:layout_marginTop="750dp"-->
-<!--                android:fontFamily="sans-serif-condensed"-->
-<!--                android:text="@string/state_sign_up"-->
-<!--                android:textColor="@color/text1"-->
-<!--                android:textSize="@dimen/size_text_sign_up_label" />-->
+            <TextView
+                android:id="@+id/state_label_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="750dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/state_sign_up"
+                android:textColor="@color/text1"
+                android:textSize="@dimen/size_text_sign_up_label" />
 
-<!--            <TextView-->
-<!--                android:id="@+id/business_label_id"-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_alignParentStart="true"-->
-<!--                android:layout_alignParentTop="true"-->
-<!--                android:layout_marginStart="210dp"-->
-<!--                android:layout_marginTop="660dp"-->
-<!--                android:fontFamily="sans-serif-condensed"-->
-<!--                android:text="@string/business_rule_sign_up"-->
-<!--                android:textColor="@color/text1"-->
-<!--                android:textSize="@dimen/size_text_sign_up_label" />-->
+            <TextView
+                android:id="@+id/business_label_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="210dp"
+                android:layout_marginTop="660dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/business_rule_sign_up"
+                android:textColor="@color/text1"
+                android:textSize="@dimen/size_text_sign_up_label" />
 
-<!--            <Spinner-->
-<!--                android:id="@+id/country_signup_id"-->
-<!--                android:layout_width="@dimen/size_box_width_signup"-->
-<!--                android:layout_height="@dimen/size_box_height_signup"-->
-<!--                android:layout_alignParentStart="true"-->
-<!--                android:layout_alignParentTop="true"-->
-<!--                android:layout_marginStart="15dp"-->
-<!--                android:layout_marginTop="680dp"-->
-<!--                android:background="@drawable/bg_box2"-->
-<!--                tools:ignore="SpeakableTextPresentCheck" />-->
+            <Spinner
+                android:id="@+id/country_signup_id"
+                android:layout_width="@dimen/size_box_width_signup"
+                android:layout_height="@dimen/size_box_height_signup"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="680dp"
+                android:background="@drawable/bg_box2"
+                tools:ignore="SpeakableTextPresentCheck" />
 
-<!--            <Spinner-->
-<!--                android:id="@+id/business_signup_id"-->
-<!--                android:layout_width="@dimen/size_box_width_signup"-->
-<!--                android:layout_height="@dimen/size_box_height_signup"-->
-<!--                android:layout_alignParentStart="true"-->
-<!--                android:layout_alignParentTop="true"-->
-<!--                android:layout_marginStart="210dp"-->
-<!--                android:layout_marginTop="680dp"-->
-<!--                android:background="@drawable/bg_box2"-->
-<!--                android:entries="@array/country_list"-->
-<!--                tools:ignore="SpeakableTextPresentCheck" />-->
+            <Spinner
+                android:id="@+id/business_signup_id"
+                android:layout_width="@dimen/size_box_width_signup"
+                android:layout_height="@dimen/size_box_height_signup"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="210dp"
+                android:layout_marginTop="680dp"
+                android:background="@drawable/bg_box2"
+                android:entries="@array/country_list"
+                tools:ignore="SpeakableTextPresentCheck" />
 
-<!--            <Button-->
-<!--                android:id="@+id/prev_button_id"-->
-<!--                android:layout_width="150dp"-->
-<!--                android:layout_height="55dp"-->
-<!--                android:layout_alignParentStart="true"-->
-<!--                android:layout_alignParentTop="true"-->
+            <Button
+                android:id="@+id/prev_button_id"
+                android:layout_width="150dp"
+                android:layout_height="55dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+android:textAllCaps="false"
+                android:layout_marginStart="26dp"
+                android:layout_marginTop="950dp"
+                android:layout_marginBottom="150dp"
+                android:background="@drawable/bg_second_button_selector"
+                android:drawableStart="?attr/actionModeCloseDrawable"
+                android:text="@string/prev_button_signup"
+                tools:ignore="TextContrastCheck" />
 
-<!--                android:layout_marginStart="26dp"-->
-<!--                android:layout_marginTop="950dp"-->
-<!--                android:layout_marginBottom="150dp"-->
-<!--                android:background="@drawable/bg_second_button"-->
-<!--                android:drawableStart="?attr/actionModeCloseDrawable"-->
-<!--                android:text="@string/prev_button_signup"-->
-<!--                tools:ignore="TextContrastCheck" />-->
+            <EditText
+                android:id="@+id/name_signup_id"
+                android:layout_width="@dimen/size_box_width_signup"
+                android:layout_height="@dimen/size_box_height_signup"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="220dp"
 
-<!--            <EditText-->
-<!--                android:id="@+id/name_signup_id"-->
-<!--                android:layout_width="@dimen/size_box_width_signup"-->
-<!--                android:layout_height="@dimen/size_box_height_signup"-->
-<!--                android:layout_alignParentStart="true"-->
-<!--                android:layout_alignParentTop="true"-->
-<!--                android:layout_marginStart="15dp"-->
-<!--                android:layout_marginTop="220dp"-->
+                android:background="@drawable/bg_box2"
+                android:ems="10"
+                android:fontFamily="@font/righteous"
+                android:gravity="center"
+                android:inputType="textPersonName"
+                android:textColor="@color/text2"
+                android:textColorHint="#3F51B5"
+                android:textSize="@dimen/size_text_sign_up_box"
+                tools:ignore="SpeakableTextPresentCheck" />
 
-<!--                android:background="@drawable/bg_box2"-->
-<!--                android:ems="10"-->
-<!--                android:fontFamily="@font/righteous"-->
-<!--                android:gravity="center"-->
-<!--                android:inputType="textPersonName"-->
-<!--                android:textColor="@color/text2"-->
-<!--                android:textColorHint="#3F51B5"-->
-<!--                android:textSize="@dimen/size_text_sign_up_box"-->
-<!--                tools:ignore="SpeakableTextPresentCheck" />-->
+            <EditText
+                android:id="@+id/user_name_signup_id"
+                android:layout_width="174dp"
+                android:layout_height="48dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="199dp"
+                android:layout_marginTop="220dp"
+                android:background="@drawable/bg_box2"
+                android:ems="10"
+                android:fontFamily="@font/righteous"
+                android:gravity="center"
+                android:inputType="textPersonName"
+                android:textSize="@dimen/size_text_sign_up_box"
+                tools:ignore="SpeakableTextPresentCheck" />
 
-<!--            <EditText-->
-<!--                android:id="@+id/user_name_signup_id"-->
-<!--                android:layout_width="174dp"-->
-<!--                android:layout_height="48dp"-->
-<!--                android:layout_alignParentStart="true"-->
-<!--                android:layout_alignParentTop="true"-->
-<!--                android:layout_marginStart="199dp"-->
-<!--                android:layout_marginTop="220dp"-->
-<!--                android:background="@drawable/bg_box2"-->
-<!--                android:ems="10"-->
-<!--                android:fontFamily="@font/righteous"-->
-<!--                android:gravity="center"-->
-<!--                android:inputType="textPersonName"-->
-<!--                android:textSize="@dimen/size_text_sign_up_box"-->
-<!--                tools:ignore="SpeakableTextPresentCheck" />-->
+            <TextView
+                android:id="@+id/name_label_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="200dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/name_sign_up"
+                android:textColor="@color/text1"
+                android:textSize="@dimen/size_text_sign_up_label" />
 
-<!--            <TextView-->
-<!--                android:id="@+id/name_label_id"-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_alignParentStart="true"-->
-<!--                android:layout_alignParentTop="true"-->
-<!--                android:layout_marginStart="15dp"-->
-<!--                android:layout_marginTop="200dp"-->
-<!--                android:fontFamily="sans-serif-condensed"-->
-<!--                android:text="@string/name_sign_up"-->
-<!--                android:textColor="@color/text1"-->
-<!--                android:textSize="@dimen/size_text_sign_up_label" />-->
+            <TextView
+                android:id="@+id/username_label_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="198dp"
+                android:layout_marginTop="200dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/user_name_sign_up"
+                android:textColor="@color/text1"
+                android:textSize="@dimen/size_text_sign_up_label" />
 
-<!--            <TextView-->
-<!--                android:id="@+id/username_label_id"-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_alignParentStart="true"-->
-<!--                android:layout_alignParentTop="true"-->
-<!--                android:layout_marginStart="198dp"-->
-<!--                android:layout_marginTop="200dp"-->
-<!--                android:fontFamily="sans-serif-condensed"-->
-<!--                android:text="@string/user_name_sign_up"-->
-<!--                android:textColor="@color/text1"-->
-<!--                android:textSize="@dimen/size_text_sign_up_label" />-->
+            <TextView
+                android:id="@+id/email_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="300dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/email_sign_up"
+                android:textColor="@color/text1"
+                android:textSize="@dimen/size_text_sign_up_label" />
 
-<!--            <TextView-->
-<!--                android:id="@+id/email_label"-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_alignParentStart="true"-->
-<!--                android:layout_alignParentTop="true"-->
-<!--                android:layout_marginStart="15dp"-->
-<!--                android:layout_marginTop="300dp"-->
-<!--                android:fontFamily="sans-serif-condensed"-->
-<!--                android:text="@string/email_sign_up"-->
-<!--                android:textColor="@color/text1"-->
-<!--                android:textSize="@dimen/size_text_sign_up_label" />-->
+            <EditText
+                android:id="@+id/email_signup_id"
+                android:layout_width="338dp"
+                android:layout_height="@dimen/size_box_height_signup"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="320dp"
+                android:background="@drawable/bg_box2"
+                android:ems="10"
+                android:fontFamily="@font/righteous"
+                android:foregroundTint="#8A0D0D"
+                android:inputType="textEmailAddress"
+                android:paddingStart="15dp"
+                android:textSize="@dimen/size_text_sign_up_box"
+                tools:ignore="SpeakableTextPresentCheck" />
 
-<!--            <EditText-->
-<!--                android:id="@+id/email_signup_id"-->
-<!--                android:layout_width="338dp"-->
-<!--                android:layout_height="@dimen/size_box_height_signup"-->
-<!--                android:layout_alignParentStart="true"-->
-<!--                android:layout_alignParentTop="true"-->
-<!--                android:layout_marginStart="15dp"-->
-<!--                android:layout_marginTop="320dp"-->
-<!--                android:background="@drawable/bg_box2"-->
-<!--                android:ems="10"-->
-<!--                android:fontFamily="@font/righteous"-->
-<!--                android:foregroundTint="#8A0D0D"-->
-<!--                android:inputType="textEmailAddress"-->
-<!--                android:paddingStart="15dp"-->
-<!--                android:textSize="@dimen/size_text_sign_up_box"-->
-<!--                tools:ignore="SpeakableTextPresentCheck" />-->
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="38dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="119dp"
+                android:layout_marginLeft="119dp"
+                android:layout_marginTop="129dp"
+                android:background="@drawable/bg_second_button_selector"
+                android:drawableLeft="@drawable/add"
+                android:text="@string/upload_image_store_button"
+                android:textAllCaps="false"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                tools:ignore="TouchTargetSizeCheck" />
 
-<!--            <Button-->
-<!--                android:layout_width="150dp"-->
-<!--                android:layout_height="38dp"-->
-<!--                android:layout_alignParentStart="true"-->
-<!--                android:layout_alignParentLeft="true"-->
-<!--                android:layout_alignParentTop="true"-->
-<!--                android:layout_marginStart="119dp"-->
-<!--                android:layout_marginLeft="119dp"-->
-<!--                android:layout_marginTop="129dp"-->
-<!--                android:background="@drawable/bg_second_button"-->
-<!--                android:drawableLeft="@drawable/add"-->
-<!--                android:text="@string/upload_image_store_button"-->
-<!--                android:textAllCaps="false"-->
-<!--                android:textSize="12sp"-->
-<!--                android:textStyle="bold"-->
-<!--                tools:ignore="TouchTargetSizeCheck" />-->
+            <ImageView
+                android:id="@+id/upload_image"
+                android:layout_width="109dp"
+                android:layout_height="114dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="140dp"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/upload_image" />
 
-<!--            <ImageView-->
-<!--                android:id="@+id/imageView4"-->
-<!--                android:layout_width="109dp"-->
-<!--                android:layout_height="114dp"-->
-<!--                android:layout_alignParentStart="true"-->
-<!--                android:layout_alignParentTop="true"-->
-<!--                android:layout_marginStart="140dp"-->
-<!--                android:layout_marginTop="12dp"-->
-<!--                android:src="@drawable/upload_image" />-->
+            <Button
+                android:id="@+id/signup_button_id"
+                android:layout_width="150dp"
+                android:textAllCaps="false"
+                android:layout_height="55dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="217dp"
+                android:layout_marginTop="950dp"
+                android:layout_marginBottom="150dp"
+                android:background="@drawable/bg_master_button_selector"
+                android:text="@string/sign20_button"
+                tools:ignore="TextContrastCheck" />
 
-<!--            <Button-->
-<!--                android:id="@+id/signup_button_id"-->
-<!--                android:layout_width="150dp"-->
-<!--                android:layout_height="55dp"-->
-<!--                android:layout_alignParentStart="true"-->
-<!--                android:layout_alignParentTop="true"-->
-<!--                android:layout_marginStart="217dp"-->
-<!--                android:layout_marginTop="950dp"-->
-<!--                android:layout_marginBottom="150dp"-->
-<!--                android:background="@drawable/bg_master_button"-->
-<!--                android:text="@string/sign20_button"-->
-<!--                tools:ignore="TextContrastCheck" />-->
-
-<!--        </RelativeLayout>-->
-<!--    </ScrollView>-->
+        </RelativeLayout>
+    </ScrollView>
 </LinearLayout>
