@@ -18,7 +18,7 @@
         android:text="@string/title_login_customer"
         android:textColor="@color/text1"
         android:textSize="30sp"
-        app:drawableTopCompat="@drawable/user_login_custmer"
+        app:drawableTopCompat="@drawable/user_login_customer"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -31,12 +31,11 @@
         android:layout_width="350dp"
         android:layout_height="48dp"
         android:layout_marginTop="72dp"
-        android:autofillHints=""
+
         android:background="@drawable/bg_box"
         android:drawableStart="@drawable/email_picture"
-        android:drawablePadding="20dp"
         android:fontFamily="@font/righteous"
-        android:gravity="center|start"
+        android:gravity="center|"
         android:hint="@string/hint_email"
         android:inputType="textEmailAddress"
         android:paddingStart="13dp"
@@ -51,15 +50,16 @@
         android:layout_width="350dp"
         android:layout_height="48dp"
         android:layout_marginTop="24dp"
-        android:autofillHints=""
+
         android:background="@drawable/bg_box"
         android:drawableStart="@drawable/lock_picture"
-        android:drawablePadding="20dp"
+
 
         android:fontFamily="@font/righteous"
-        android:gravity="center|start"
+        android:gravity="center"
         android:hint="@string/hint_password"
         android:inputType="textPassword"
+
         android:paddingStart="10dp"
         android:textColor="@color/text2"
         app:layout_constraintEnd_toEndOf="parent"

@@ -35,12 +35,11 @@
         android:layout_marginStart="94dp"
         android:layout_marginTop="67dp"
 
-        android:fontFamily="@font/raleway_dots"
+        android:fontFamily="@font/lobster"
         android:gravity="center"
         android:text="@string/welcome_to"
         android:textColor="@color/text1"
-        android:textSize="48sp"
-        android:textStyle="bold" />
+        android:textSize="48sp" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -50,7 +49,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="138dp"
+        android:layout_marginTop="146dp"
         app:srcCompat="@drawable/logo_intro"
         tools:ignore="ImageContrastCheck" />
 

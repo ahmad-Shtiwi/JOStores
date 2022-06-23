@@ -25,7 +25,7 @@
     <string name="prev_button_signup">رجوع</string>
     <string name="sign20_button">انشاء حساب $ 20</string>
     <string name="guest_customer">ضيف</string>
-
+    <string name="login_hint_password">كلمة السر</string>
     <string name="store">متجرك</string>
 
 </resources>

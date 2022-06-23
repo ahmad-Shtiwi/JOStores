@@ -13,4 +13,12 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="navbar_bottom_button">
+        <item name="android:layout_width">65dp</item>
+       <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">7dp</item>
+        <item name="android:background">@drawable/bg_navbar_bottom_selector</item>
+
+    </style>
 </resources>

@@ -1,47 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".sections"
-    android:background="@drawable/bg_body">
+    android:background="@drawable/bg_body"
+    tools:context=".sections">
 
     <Button
         android:id="@+id/user_section_id"
-        android:textAllCaps="false"
         android:layout_width="177dp"
         android:layout_height="164dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="407dp"
         android:background="@drawable/bg_master_button_selector"
+        android:drawableTop="@drawable/user_svg"
         android:fontFamily="@font/abril_fatface"
         android:gravity="center"
         android:paddingTop="30dp"
         android:text="@string/customers"
+        android:textAllCaps="false"
         android:textColor="@color/text2"
-        android:textSize="30sp"
-        app:drawableTopCompat="@drawable/user_svg"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.7" />
+        android:textSize="30sp" />
 
     <Button
         android:id="@+id/store_section_id"
-        android:textAllCaps="false"
         android:layout_width="177dp"
         android:layout_height="164dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="140dp"
         android:background="@drawable/bg_master_button_selector"
+        android:drawableTop="@drawable/store_svg"
         android:fontFamily="@font/abril_fatface"
         android:gravity="center"
         android:paddingTop="30dp"
         android:text="@string/store"
+        android:textAllCaps="false"
         android:textColor="@color/text2"
-        android:textSize="34sp"
-        app:drawableTopCompat="@drawable/store_svg"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.268" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:textSize="34sp" />
+</RelativeLayout>
