@@ -19,6 +19,7 @@
         android:background="@drawable/bg_master_button_selector"
         android:drawableEnd="@drawable/arrow_right_icon"
         android:fontFamily="@font/fjalla_one"
+        android:gravity="center"
         android:text="@string/get_started"
         android:textAllCaps="false"
         android:textColor="@color/text2"

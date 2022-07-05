@@ -35,7 +35,7 @@
         android:background="@drawable/bg_box"
         android:drawableStart="@drawable/email_picture"
         android:fontFamily="@font/righteous"
-        android:gravity="center|"
+        android:gravity="center"
         android:hint="@string/hint_email"
         android:inputType="textEmailAddress"
         android:paddingStart="13dp"
